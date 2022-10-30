@@ -1,0 +1,48 @@
+@import 'fonts';
+
+p {
+  font-family: $fMed;
+  text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $fBlack;
+}
+
+a {
+  font-family: $fLight;
+}
+
+.title-text {
+  display: flex;
+  align-items: center;
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  p {
+    font-size: 15px;
+    line-height: 2rem;
+  }
+
+  .title-text {
+    display: block;
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
