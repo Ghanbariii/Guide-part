@@ -1,12 +1,10 @@
 <template>
-  <v-app class="mainBack">
-    <Nuxt />
+  <v-app id="login-layout">
   </v-app>
 </template>
 
 <script>
-
 export default {
-  name: 'Default',
+  name: "Login"
 }
 </script>

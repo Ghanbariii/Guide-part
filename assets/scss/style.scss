@@ -13,8 +13,29 @@ a {
   font-family: $fLight;
 }
 
+img {
+  width: 450px;
+}
+
+.logo {
+  img {
+    height: 50px!important;
+    width: 50px!important;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 24px;
+    max-width: 300px;
+  }
+}
+
+.sub-text {
+  p {
+    opacity: 0.8;
+  }
+}
 .title-text {
-  display: flex;
   align-items: center;
   h1 {
     font-size: 4rem;
@@ -28,6 +49,9 @@ a {
 }
 
 @media (max-width: 991px) {
+  img {
+    width: 340px;
+  }
   p {
     font-size: 15px;
     line-height: 2rem;
@@ -44,5 +68,14 @@ a {
     p {
       font-size: 20px;
     }
+  }
+}
+
+@media (min-width: 991px) {
+  .main-page {
+    height: 100vh !important;
+  }
+  .sub-text {
+    position: absolute; bottom: 3rem
   }
 }
