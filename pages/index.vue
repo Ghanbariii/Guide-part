@@ -11,6 +11,11 @@
         </div>
         <div class="my-16">
           <div>
+            <v-btn rounded color="lightSuccess" class="" to="/learn-reservation">
+              مشاهده آموزش رزور کردن
+            </v-btn>
+          </div>
+          <div class="mt-3">
             <v-btn rounded color="lightSuccess" class="white" to="/learn-check-in">
               مشاهده آموزش درخواست حاضری
             </v-btn>
@@ -18,11 +23,6 @@
           <div class="mt-3">
             <v-btn rounded color="lightSuccess" class="" to="/learn-turn-in">
               مشاهده آموزش درخواست نوبت درجا
-            </v-btn>
-          </div>
-          <div class="mt-3">
-            <v-btn rounded color="lightSuccess" class="" to="/learn-reservation">
-              مشاهده آموزش رزور کردن
             </v-btn>
           </div>
         </div>
