@@ -21,7 +21,7 @@
             </v-btn>
           </div>
           <div class="mt-3">
-            <v-btn rounded color="lightSuccess" class="" to="/learn-turn-in">
+            <v-btn rounded color="lightSuccess" to="/learn-turn-in">
               مشاهده آموزش درخواست نوبت درجا
             </v-btn>
           </div>
@@ -55,5 +55,13 @@ export default {
   name: "index",
   layout: 'default'
 }
+
 </script>
+
+
+<style>
+.text--color{
+  color:aliceblue
+}
+</style>
 
